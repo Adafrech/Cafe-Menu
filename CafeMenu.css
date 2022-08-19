@@ -1,0 +1,94 @@
+/*Se puede hacer estilos en html, pero para ahorrar codigo, es mas facil hacerlos en css*/
+/* Style <!--Sirve para modificar los textos.-->*/
+h1, h2,p{
+    text-align: center;
+    }
+h1, h2{font-family: impact, serif;
+}
+.established{font-style: italic;}
+body{
+    font-family:sans-serif;
+    background-image: url(coffee.webp);
+    background-size: 100%;
+    }
+    h1{
+        margin-top: 0px;
+        font-size: 40px;
+        margin-bottom: 15px;
+      }
+      h2{
+        font-size: 30px;
+              }
+.menu {
+    background-color: burlywood; /* Fondo*/
+    max-width: 500px; /* Ancho Maximo */
+    margin-left : auto; /* Margenes*/
+    margin-right: auto;
+    padding: 20px;/* Margenes*/
+    width: 80%; /* Ancho */
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -25px;
+}
+.flavor, .dessert{
+    text-align: left;
+    width: 75%;
+}
+.price
+{
+    text-align: right;
+    width: 25%;
+}
+.item p{ 
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+    font-size: 18px;
+}
+hr{
+    border-color: brown;
+    background-color: brown;
+    height: 2px;
+}
+.bottom-line{
+    margin-top: 25px;
+}
+/* Footer */
+footer{
+    font-size: 14px;
+}
+.adress{
+    margin-bottom: 5px;
+}
+a:hover{ /*esto sirve para agregar un estilo a una pseudoclase*/
+    color:black;
+}
+a:visited {
+  color: brown;
+}
+a:active {
+  color: brown;  
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+
+
+
+
+/* PSEUDOS CLASES
+ *:link Añade estilo a un link no visitado.
+ *:Visited añade estilo a un link ya visitado.
+ *:hover añade estilo a un elemento cuando el mouse esta encima de el.
+ *:active añade estilo sobre un link activo
+ *:focus añade estilo sobre el elemento de enfoque.
+ *:first-child añade estilo sobre el primer elemento.
+ *:last-childs añade estilo al segundo elemeto.
+ *:lang define el languaje especificado al elemento.
